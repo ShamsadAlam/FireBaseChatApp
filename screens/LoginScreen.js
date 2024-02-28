@@ -34,7 +34,7 @@ const LoginScreen = ({ navigation }) => {
     <KeyboardAvoidingView behavior="padding" style={styles.container}>
       <StatusBar style="light" />
       <Image
-        source={require("../assets/Signal-Messenger-Icon.png")}
+        source={require("../assets/chat-icon.png")}
         style={{ width: 200, height: 200 }}
       />
       <View style={styles.InputContainer}>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ListItem, Avatar } from "@rneui/base";
 import { View, Text, StyleSheet } from "react-native";
-import { db } from "../firebase";
+import { db } from "../Firebase";
 import { onSnapshot, collection, orderBy, query } from "firebase/firestore";
 
 const CustomListItem = ({ id, chatName, enterChat }) => {

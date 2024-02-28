@@ -209,7 +209,7 @@ const ChatScreen = ({ navigation, route }) => {
                 value={input}
                 onChangeText={(text) => setInput(text)}
                 onSubmitEditing={sendMessage}
-                placeholder="Signal Message"
+                placeholder="Write Your Message"
                 style={styles.textInput}
               />
               <TouchableOpacity onPress={sendMessage} activeOpacity={0.5}>

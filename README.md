@@ -27,10 +27,6 @@ A simple React Native chat application using Firebase for real-time communicatio
 - React Native development environment set up
 - Firebase project created with necessary configurations
 
-### Installation
-1. Clone the repository: `git clone https://github.com/ShamsadAlam/FireBaseChatApp`
-2. Install dependencies: `npm install`
-
 ### Configuration
 1. Create a Firebase project and obtain the configuration details.
 2. Update `firebase.js` with your Firebase configuration.
@@ -40,6 +36,7 @@ A simple React Native chat application using Firebase for real-time communicatio
    ```bash
    git clone https://github.com/ShamsadAlam/FireBaseChatApp
    cd FireBaseChatApp
+   npm install
 
 ### Running the App
 - Run on Android: `npx react-native run-android`

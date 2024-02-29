@@ -56,12 +56,8 @@ const HomeScreen = ({ navigation }) => {
             flexDirection: "row",
             justifyContent: "space-between",
             width: 80,
-            marginRight: 20,
           }}
         >
-          <TouchableOpacity activeOpacity={0.5}>
-            <AntDesign name="camerao" size={24} color="black" />
-          </TouchableOpacity>
           <TouchableOpacity
             onPress={() => navigation.navigate("AddChat")}
             activeOpacity={0.5}
